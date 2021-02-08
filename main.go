@@ -35,6 +35,7 @@ func main() {
 		}
 
 	}
+
 	pi := (2 * l * float64(attempts)) / (float64(events) * t)
 	fmt.Println(pi)
 	p, err := plot.New()
